@@ -43,7 +43,7 @@ jobs:
     - name: Upload coverage reports
       uses: codecov/codecov-action@v3
       with:
-        files: ./coverage/lcov.info
+        files: react-cicd-app/coverage/lcov.info
         flags: unittests
         name: codecov-umbrella
 
@@ -71,7 +71,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: dist
-        path: dist/
+        path: react-cicd-app/dist/
 
   deploy:
     runs-on: ubuntu-latest

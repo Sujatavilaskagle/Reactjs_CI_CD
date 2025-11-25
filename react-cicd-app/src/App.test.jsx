@@ -7,7 +7,7 @@ describe('App Component - Registration Form', () => {
     render(<App />);
     const heading = screen.getByRole('heading', { level: 1 });
     expect(heading).toBeInTheDocument();
-    expect(heading).toHaveTextContent('User Registration');
+    expect(heading).toHaveTextContent('User Registrations');
   });
 
   test('renders email and password input fields', () => {
