@@ -55,7 +55,7 @@ describe('App Component - Registration Form', () => {
   test('clears email and password after successful registration', async () => {
     global.fetch = jest.fn(() =>
       Promise.resolve({
-        ok: false,
+        ok: true,
         json: () => Promise.resolve({
           message: 'User registered successfully',
           userId: '1763980239570',
