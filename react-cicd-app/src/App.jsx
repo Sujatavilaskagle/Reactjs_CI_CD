@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>User Registration</h1>
+      <h1>Registration Form</h1>
       <form onSubmit={handleRegister} className="form">
         <div className="form-group">
           <label htmlFor="email">Email:</label>
