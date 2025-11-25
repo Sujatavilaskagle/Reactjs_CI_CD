@@ -36,9 +36,9 @@ export default [
     },
   },
   {
-    files: ['**/*.test.{js,jsx}'],
+    files: ['**/*.test.{js,jsx}', '**/__mocks__/**'],
     languageOptions: {
-      globals: { ...globals.browser, ...globals.jest },
+      globals: { ...globals.browser, ...globals.jest, ...globals.node },
     },
   },
 ]
