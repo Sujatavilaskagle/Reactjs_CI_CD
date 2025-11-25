@@ -62,7 +62,7 @@ function App() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="password">Password:</label>
+          <label htmlFor="password">password:</label>
           <input
             id="password"
             type="password"
